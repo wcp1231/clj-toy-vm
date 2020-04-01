@@ -7,7 +7,8 @@
   ;; An option with a required argument
   [[nil "--help" "Print usage" :id :help]
    [nil "--version" "Print version" :id :version]
-   [nil "--classpath CLASS_PATH" "User classpath"]])
+   [nil "--classpath CLASS_PATH" "User classpath"]
+   [nil "--Xjre JRE_OPTION" "Path to jre"]])
 
 
 (defn usage [options-summary]
